@@ -8,10 +8,11 @@ export default function InformationAboutUs({
   text,
 }: InformationAboutUsProps) {
   return (
-    <div>
-      <p>{mainText}</p>
-
-      <p>{text}</p>
+    <div className="text-center">
+      <div className="text-3xl md:text-4xl font-bold text-green-600">
+        {mainText}
+      </div>
+      <div className="text-gray-600 mt-2">{text}</div>
     </div>
   );
 }
