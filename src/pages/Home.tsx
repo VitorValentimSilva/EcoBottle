@@ -1,5 +1,6 @@
 import { LuLeaf } from "react-icons/lu";
 import AboutUs from "../components/AboutUs";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         subTitle="Garrafa 100% Reciclável"
         description="Revolucione sua forma de beber água com tecnologia sustentável. Cada EcoBottle evita 10kg de plástico no meio ambiente."
       />
+
+      <WhyChooseUs />
     </>
   );
 }
