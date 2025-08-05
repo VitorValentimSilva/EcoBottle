@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Button from "./Button";
 import InformationAboutUs from "./InformationAboutUs";
+import ParticleBackground from "./ParticleBackground";
 
 interface AboutUsProps {
   icon: ReactElement;
@@ -21,6 +22,8 @@ export default function AboutUs({
 }: AboutUsProps) {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 flex items-center justify-center overflow-hidden">
+      <ParticleBackground />
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
