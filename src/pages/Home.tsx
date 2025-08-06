@@ -3,6 +3,7 @@ import AboutUs from "../components/AboutUs";
 import WhyChooseUs from "../components/WhyChooseUs";
 import FAQ from "../components/FAQ";
 import HowItWorks from "../components/HowItWorks";
+import TestimonialsAndCertifications from "../components/TestimonialsAndCertifications";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <WhyChooseUs />
 
       <HowItWorks />
+
+      <TestimonialsAndCertifications />
 
       <FAQ />
     </>
