@@ -2,6 +2,7 @@ import { LuLeaf } from "react-icons/lu";
 import AboutUs from "../components/AboutUs";
 import WhyChooseUs from "../components/WhyChooseUs";
 import FAQ from "../components/FAQ";
+import HowItWorks from "../components/HowItWorks";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       />
 
       <WhyChooseUs />
+
+      <HowItWorks />
 
       <FAQ />
     </>

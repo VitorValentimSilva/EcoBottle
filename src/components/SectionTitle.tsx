@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 interface SectionTitleProps {
   title: string;
-  text: string;
+  text?: string;
 }
 
 export default function SectionTitle({ title, text }: SectionTitleProps) {
